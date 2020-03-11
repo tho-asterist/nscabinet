@@ -2,19 +2,20 @@
 
 Upload/download files to a netsuite account, using the included _restlet_.
 
+Forked from https://github.com/suiteplus/nscabinet
+
 _PS: This is actually also a gulp plugin._
 
 ## Required [![Dependency Status][david-image]][david-url] [![devDependency Status][david-image-dev]][david-url-dev]
 
- * node.js 4+
+ * node.js 8+
 
 
 
 ## Quick start
 ```bash
-    npm install suiteplus/nscabinet
+    npm install tho-asterist/netsuite-cabinet
 ```
-> **WARNING**:  The version on npm is outdated, use the command above to install from Github
 
   - Install the __nscabinet restlet__ bundle in your netsuite account (or manually create the script using the file in the repo) *
 
