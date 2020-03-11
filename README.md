@@ -1,4 +1,4 @@
-# nscabinet [![NPM version][npm-image]][npm-url]
+# netsuite-cabinet [![NPM version][npm-image]][npm-url]
 
 Upload/download files to a netsuite account, using the included _restlet_.
 
@@ -14,7 +14,7 @@ _PS: This is actually also a gulp plugin._
 
 ## Quick start
 ```bash
-    npm install tho-asterist/netsuite-cabinet
+    npm install netsuite-cabinet
 ```
 
   - Install the __nscabinet restlet__ bundle in your netsuite account (or manually create the script using the file in the repo) *
@@ -208,11 +208,11 @@ At the time tests are run locally. To set up the tests:
 
 
 
-[npm-url]: https://npmjs.org/package/nscabinet
-[npm-image]: http://img.shields.io/npm/v/nscabinet.svg
+[npm-url]: https://npmjs.org/package/netsuite-cabinet
+[npm-image]: http://img.shields.io/npm/v/netsuite-cabinet.svg
 
-[david-url]: https://david-dm.org/suiteplus/nscabinet
-[david-image]: https://david-dm.org/suiteplus/nscabinet.svg
+[david-url]: https://david-dm.org/tho-asterist/nscabinet
+[david-image]: https://david-dm.org/tho-asterist/nscabinet.svg
 
-[david-url-dev]: https://david-dm.org/suiteplus/nscabinet#info=devDependencies
-[david-image-dev]: https://david-dm.org/suiteplus/nscabinet/dev-status.svg
+[david-url-dev]: https://david-dm.org/tho-asterist/nscabinet#info=devDependencies
+[david-image-dev]: https://david-dm.org/tho-asterist/nscabinet/dev-status.svg
