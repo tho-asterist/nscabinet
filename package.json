@@ -1,6 +1,6 @@
 {
   "name": "netsuite-cabinet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Upload and download files from netsuite.",
   "engines": {
     "node": ">=8.x",
