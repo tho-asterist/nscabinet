@@ -34,3 +34,5 @@ file2.js
 .nscabinet
 .idea
 test/_input
+
+package-lock.json

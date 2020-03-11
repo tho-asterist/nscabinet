@@ -1,18 +1,18 @@
 {
-  "name": "nscabinet",
-  "version": "0.7.0",
+  "name": "netsuite-cabinet",
+  "version": "1.0.0",
   "description": "Upload and download files from netsuite.",
   "engines": {
-    "node": ">=4.x",
-    "npm": ">=2.x.x"
+    "node": ">=8.x",
+    "npm": ">=6.x.x"
   },
   "main": "src/nscabinet.js",
   "bin": {
-    "nscabinet": "./src/cli.js"
+    "nscabinet": "src/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suiteplus/nscabinet.git"
+    "url": "git+https://github.com/tho-asterist/nscabinet.git"
   },
   "keywords": [
     "netsuite",
@@ -22,28 +22,34 @@
   "author": "Suiteplus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/suiteplus/nscabinet/issues"
+    "url": "https://github.com/tho-asterist/nscabinet/issues"
   },
-  "homepage": "https://github.com/suiteplus/nscabinet#readme",
+  "homepage": "https://github.com/tho-asterist/nscabinet#readme",
   "dependencies": {
-    "nsconfig": "github:suiteplus/nsconfig",
-    "request": "^2.64.0",
-    "through2": "^2.0.0",
-    "vinyl": "^1.0.0",
-    "vinyl-fs": "^2.1.1",
-    "yargs": "^4.2.0"
+    "nsconfig": "github:tho-asterist/nsconfig",
+    "request": "^2.88.2",
+    "through2": "^3.0.1",
+    "vinyl": "^2.2.0",
+    "vinyl-fs": "^3.0.3",
+    "yargs": "^15.3.0"
   },
   "devDependencies": {
-    "del": "^2.2.0",
-    "eslint": "^2.2.0",
-    "eslint-plugin-mocha": "^2.0.0",
-    "gulp": "^3.9.0",
-    "gulp-eslint": "^2.0.0",
-    "gulp-istanbul-sp": "^0.10.1-beta",
-    "gulp-load-plugins": "^1.0.0",
-    "gulp-mocha": "^2.1.3",
-    "gulp-plumber": "^1.0.1",
-    "require-dir": "^0.3.0",
-    "should": "^8.2.2"
+    "del": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-mocha": "^6.3.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-istanbul-sp": "github:tho-asterist/gulp-istanbul-sp",
+    "gulp-load-plugins": "^2.0.2",
+    "gulp-mocha": "^7.0.2",
+    "gulp-plumber": "^1.2.1",
+    "require-dir": "^1.2.0",
+    "should": "^13.2.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/nscabinet-test.js"
   }
 }
